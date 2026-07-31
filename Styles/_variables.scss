@@ -1,0 +1,54 @@
+//Declaring
+  $primary-colors: (
+    "jungle-teal": hsl(158, 36%, 37%),
+    "pine-teal": hsl(158, 42%, 18%),
+  );
+
+  $neutral-colors: (
+    "basic-white": hsl(0, 0%, 100%),
+    "jet-black": hsl(212, 21%, 14%),
+    "slate-grey": hsl(228, 12%, 48%),
+    "linen": hsl(30, 38%, 92%),
+    "link": hsl(228, 45%, 44%),
+  );
+
+  $fonts: (
+    "header-font": ("Fraunces", Arial, sans-serif),
+    "paragraph-font": ("Montserrat", Arial, sans-serif), 
+  );
+
+  $font-size: (
+  "header-fsize": 1.5rem,
+  "para-fsize": 1rem,
+  "font-size-xs": 0.75rem,
+  "font-size-sm": 0.875rem,
+  "font-size-base": 1rem,
+  "font-size-lg": 1.125rem,
+  "font-size-xl": 1.25rem,
+  "font-size-2xl": 1.5rem,
+  "font-size-3xl": 1.875rem,
+  "font-size-4xl": 2rem,
+  );
+
+  $font-weight:(
+    "regular": 400,
+    "medium": 500,
+    "bold": 700, 
+  );
+
+  $spacings: (
+  "spacing-xs": 0.25rem,
+  "spacing-sm": 0.5rem,
+  "spacing-md": 1rem,
+  "spacing-lg": 1.5rem,
+  "spacing-xl": 2rem,
+  "spacing-xll": 2.5rem,
+  );
+
+  $radius: (
+  "radius-sm": 0.25rem,
+  "radius-md": 0.5rem,
+  "radius-lg": 0.75rem,
+  "radius-xl": 1rem,
+  "radius-full": 9999px,
+  );

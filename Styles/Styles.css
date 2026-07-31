@@ -1,0 +1,132 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: hsl(30, 38%, 92%);
+  /* background-color: map-get($neutral-colors, linen ); */
+  font-weight: 400;
+  font-family: "Montserrat", Arial, sans-serif;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-block-start: 8rem;
+  margin-block-end: 16rem;
+}
+
+.product-preview-card-container {
+  background-color: hsl(0, 0%, 100%);
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  justify-content: center;
+  /* align-items: center; */
+  max-width: 95%;
+  border-radius: 0.75rem;
+  margin-block-end: 1rem;
+  overflow: hidden;
+}
+.product-preview-card-container picture,
+.product-preview-card-container .product-img {
+  width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  /* block-size: auto; */
+  /* height: fit-content; */
+  border-top-left-radius: 0.75rem;
+  border-top-right-radius: 0.75rem;
+  display: block;
+}
+.product-preview-card-container .product-info-container {
+  padding: 2rem;
+}
+.product-preview-card-container .product-tag {
+  color: hsl(228, 12%, 48%);
+  letter-spacing: 0.25rem;
+  padding-block-end: 1.5rem;
+  text-transform: uppercase;
+}
+.product-preview-card-container p {
+  line-height: 1.5;
+  color: hsl(228, 12%, 48%);
+}
+.product-preview-card-container h1 {
+  font-family: "Fraunces", Arial, sans-serif;
+  padding-block-end: 1.5rem;
+  color: hsl(212, 21%, 14%);
+}
+.product-preview-card-container .product-caption {
+  padding-block-end: 1.5rem;
+}
+.product-preview-card-container .price {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding-block-end: 1rem;
+}
+.product-preview-card-container .product-price p {
+  color: hsl(158, 36%, 37%);
+  font-size: 2rem;
+  font-weight: 700;
+  font-family: "Fraunces", Arial, sans-serif;
+}
+.product-preview-card-container .og-price {
+  -webkit-text-decoration: line-through hsl(228, 12%, 48%);
+          text-decoration: line-through hsl(228, 12%, 48%);
+  padding-inline-start: 1rem;
+  font-size: 0.875rem;
+}
+.product-preview-card-container button {
+  border: none;
+  text-wrap: nowrap;
+  background-color: hsl(158, 36%, 37%);
+  padding-inline-start: 5.5rem;
+  padding-inline-end: 5.5rem;
+  padding-block-start: 1rem;
+  padding-block-end: 1rem;
+  width: 100%;
+  border-radius: 0.5rem;
+  color: hsl(0, 0%, 100%);
+  font-size: 1rem;
+  font-family: "Montserrat", Arial, sans-serif;
+  font-weight: 500;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto;
+  transition: 0.5s;
+}
+.product-preview-card-container button:hover,
+.product-preview-card-container button :focus {
+  cursor: pointer;
+  background-color: hsl(158, 42%, 18%);
+}
+.product-preview-card-container .cart-icon {
+  padding-inline-end: 0.5rem;
+  border-radius: 0;
+}
+
+@media screen and (min-width: 40rem) {
+  .product-preview-card-container {
+    grid-template-columns: 350px minmax(200px, 330px);
+  }
+  .product-preview-card-container picture,
+  .product-preview-card-container .product-img {
+    border-top-right-radius: 0;
+    -o-object-fit: cover;
+       object-fit: cover;
+  }
+  .product-preview-card-container .product-info-container {
+    align-self: center;
+  }
+}
+.attribution {
+  font-size: 0.6875rem;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}/*# sourceMappingURL=Styles.css.map */

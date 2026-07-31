@@ -1,0 +1,29 @@
+@import './variables';
+
+@function primary-colors($color-name) {
+  @return map-get($primary-colors , $color-name)
+};
+
+@function neutral-colors($color-name) {
+  @return map-get($neutral-colors , $color-name)
+};
+
+@function fonts($font-name) {
+  @return map-get($fonts , $font-name)
+};
+
+@function font-size($font-size-name) {
+  @return map-get($font-size , $font-size-name)
+};
+
+@function font-weight($font-weight-name) {
+  @return map-get($font-weight , $font-weight-name)
+};
+
+@function spacings($spacing-name) {
+  @return map-get($spacings , $spacing-name)
+};
+
+@function radius($radius-name) {
+  @return map-get($radius , $radius-name)
+};

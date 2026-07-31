@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <!--Importing Fonts-->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,100..900;1,9..144,100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+  <!--Linking Styles-->
+  <link rel="stylesheet" href="/Styles/Styles.css">
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <title>Frontend Mentor | Product preview card component</title>
+</head>
+<body>
+  <main class="product-preview-card-container">
+    <!--Product Image-->
+    <picture class="product-img" >
+      <source class="product-img" srcset="images/image-product-desktop.jpg" media="(min-width: 40rem)">
+      <img class="product-img" src="images/image-product-mobile.jpg" alt="Chanel perfume on a gray tabel with green leaves">
+    </picture>
+    <!--Product Info & Details-->
+    <section class="product-info-container">
+      <!--Product Title & Tag-->
+      <header class="product-title">
+        <p class="product-tag">Perfume</p>
+        <h1>Gabrielle Essence Eau De Parfume</h1>
+      </header>
+      <!--Product Details-->
+      <section class="product-caption">
+        <p> A floral, solar and voluptuous interpretation composed by Olivier Polge, Perfumer-Creator for the House of CHANEL. </p>
+      </section>
+      <!--Product Selling Price-->
+      <section class="price">
+        <div class="product-price">
+          <p>$149.99</p>
+        </div>
+        <!--Original Product Price-->
+        <div class="og-price">
+          <p>$169.99</p>
+        </div>
+      </section>
+      <!--Add to Cart Button-->
+      <button class="atc-button">
+        <img class="cart-icon" src="images/icon-cart.svg" alt="white colored cart icon">
+        Add to Cart
+      </button>
+    </section>
+  </main>
+  <!--Footer-->
+  <footer class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge">Frontend Mentor</a>. 
+    Coded by <a href="#">Haseeb Ahmed</a>.
+  </footer>
+</body>
+</html>
