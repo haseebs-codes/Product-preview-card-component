@@ -33,8 +33,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL:[solution URL](https://github.com/haseebs-codes/Product-preview-card-component)
-- Live Site URL:[live site](https://your-live-site-url.com)
+- Solution URL: [solution URL](https://github.com/haseebs-codes/Product-preview-card-component)
+- Live Site URL: [live site](https://haseebs-codes.github.io/Product-preview-card-component/)
 
 ## My process
 
@@ -46,11 +46,7 @@ Users should be able to:
 - CSS Grid
 - Mobile-first workflow
 - Scss
-- [React](https://reactjs.org/) - JS library
-- [Next.js](https://nextjs.org/) - React framework
-- [Styled Components](https://styled-components.com/) - For styles
 
-**Note: These are just examples. Delete this note and replace the list above with your own choices**
 
 ### What I learned
 
